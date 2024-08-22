@@ -62,7 +62,7 @@ A special thank you to **Professor Jibrael Jos** for his invaluable guidance and
 ## Contact
 If you have any questions or feedback, feel free to reach out to us:
 
-Debolina Chatterjee: www.linkedin.com/in/debolina-chatterjee-614965268
-Siddhartha Sinha: LinkedIn Profile
+Debolina Chatterjee.
+Siddhartha Sinha.
 Thank you for visiting our project! 🌠
    
