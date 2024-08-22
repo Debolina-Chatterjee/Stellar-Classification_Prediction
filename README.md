@@ -1,46 +1,67 @@
-# Stellar-Welcome to the Stellar Classification Analysis project! This repository contains an in-depth analysis of stellar data, focusing on classifying stars, galaxies, and quasars based on their spectral characteristics.
+# Stellar Classification Project 🌟
 
-Overview ℹ️
-In this project, we explore a dataset comprising 100,000 observations of space taken by the Sloan Digital Sky Survey (SDSS). Each observation is described by 17 feature columns and 1 class column, identifying it as a star, galaxy, or quasar.
+Welcome to the Stellar Classification project repository! This project, conducted in collaboration with **Debolina Chatterjee** and **Siddhartha Sinha**, focuses on classifying stars, galaxies, and quasars using data from the Sloan Digital Sky Survey (SDSS). Leveraging advanced statistical analysis and machine learning models, we achieved significant results in the field of astronomical data science.
 
-Dataset Details 📄
-Source: Kaggle - Stellar Classification Dataset
-Description: The dataset includes information about various stellar attributes such as spectral type, magnitude, color index, luminosity, and more, collected from astronomical observations and surveys.
-Project Structure 📁
-The repository is organized as follows:
+## Project Overview
 
-Data: Contains the stellar datasets used for analysis.
-Notebooks: Jupyter Notebooks (.ipynb) files containing the EDA and modeling process.
-Visualizations: Visualizations generated during the analysis.
-Images: Images used in the README.
-README.md: You are here!
-Data Exploration 🚀
-Data Cleaning: Handled missing values and duplicates.
-Understanding Data Distribution: Explored various stellar metrics such as right ascension angle, declination angle, and redshift values.
-Exploratory Visualization: Visualized data distribution using histograms, box plots, violin plots, and pair plots.
-Feature Engineering: Calculated color indices, extracted temporal features, performed one-hot encoding, and binned redshift values.
-Statistical Analysis 📊
-t-Test: Compared redshift values between galaxies and stars.
-ANOVA: Analyzed the redshift values across different classes.
-Chi-Square Test: Tested the independence between class and redshift category.
-Modeling 🧠
-Linear Regression: Predicted redshift values based on photometric filters (u, g, r, z).
-Logistic Regression: Classified stellar objects into stars, galaxies, or quasars.
-Principal Component Analysis (PCA): Reduced dimensionality for visualization.
-Advanced Visualization 📊
-Interactive Visualization with Plotly: Created interactive scatter plots.
-Hierarchical Visualization with Dendrogram: Plotted hierarchical clustering dendrogram.
-Confusion Matrix: Evaluated classification performance using a confusion matrix.
-Usage 📝
-To replicate or explore the analysis:
+### Data Source
 
-Clone this repository: https://github.com/Debolina10Chatterjee/Stellar-Classification-Analysis.git
+The dataset used for this project was obtained from the Sloan Digital Sky Survey (SDSS) and consists of **100,000** observations of celestial objects, including stars, galaxies, and quasars.
 
-Navigate to the cloned directory: cd Stellar_Classification_Analysis
+### Objectives
 
-Install the required libraries: pip install -r requirements.txt
+- **Data Cleaning & Preprocessing:** To clean and preprocess the dataset for analysis and modeling.
+- **Statistical Analysis:** To perform detailed statistical analysis to uncover significant insights.
+- **Machine Learning:** To build and evaluate various machine learning models for stellar classification.
 
-Open the Jupyter Notebooks in the Notebooks directory to view the analysis: jupyter notebook Notebooks/Stellar_Classification_Analysis.ipynb
+## Project Highlights
 
-Contributors ✨
-Debolina Chatterjee Siddhartha Sinha
+### 1. Data Analysis
+
+- **Data Cleaning:** Comprehensive cleaning to handle missing values, outliers, and ensure data consistency.
+- **Exploratory Data Analysis (EDA):** Visualized data distributions, correlations, and trends.
+
+### 2. Statistical Analysis
+
+- **T-tests & ANOVA:** Used to identify statistically significant differences across celestial classes.
+- **Regression Models:** Applied linear and logistic regression to understand relationships between variables.
+
+### 3. Machine Learning Models
+
+We evaluated multiple machine learning models for the classification task:
+
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+- **Support Vector Machine (SVM)**
+- **Decision Trees**
+- **Random Forest**
+- **Gradient Boosting**
+
+**Top Performers:**
+- **Gradient Boosting** and **Random Forest** models stood out, achieving accuracy rates exceeding **90%**.
+
+## Key Findings
+
+- **Descriptive Statistics:** Provided insights into the distribution and characteristics of the data.
+- **Significant Differences:** Statistical tests confirmed significant spectral differences across celestial objects.
+- **Model Performance:** Advanced machine learning models delivered robust classification performance, with Gradient Boosting and Random Forest leading the pack.
+
+## Authors
+
+- **Debolina Chatterjee**
+- **Siddhartha Sinha**
+
+## Acknowledgments
+
+A special thank you to **Professor Jibrael Jos** for his invaluable guidance and support throughout this project. We are confident that our findings will contribute to the ongoing exploration and understanding of our universe.
+
+## How to Use This Repository
+
+ **Clone the Repository:** 
+ Contact
+If you have any questions or feedback, feel free to reach out to us:
+
+Debolina Chatterjee: LinkedIn
+Siddhartha Sinha: LinkedIn
+Thank you for visiting our project! 🌠
+   
